@@ -18,7 +18,7 @@ namespace Contatos.Domain.Models
 
 		public void Update(string nome, string email)
 		{
-			ValidaCategoria(nome, email)
+			ValidaCategoria(nome, email);
 		}
 		private void ValidaCategoria(string nome, string email)
 		{
